@@ -52,7 +52,7 @@ func assertBalance(t testing.TB, wallet Wallet, want Bitcoin) {
 	got := wallet.Balance()
 
 	if got != want {
-		t.Errorf("got %q want %q", got, want)
+		t.Errorf("got %q want %q", got, want)=
 	}
 }
 
